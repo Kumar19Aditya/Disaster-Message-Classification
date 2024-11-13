@@ -9,7 +9,9 @@ from nltk.stem import WordNetLemmatizer
 from sklearn.model_selection import train_test_split
 import nltk
 # Ensure punkt is downloaded
-nltk.download('punkt', quiet=True)
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 # Function to convert an image to base64
 def image_to_base64(image_path):

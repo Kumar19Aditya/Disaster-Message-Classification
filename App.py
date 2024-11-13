@@ -12,6 +12,7 @@ import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('punkt_tab')
 
 # Function to convert an image to base64
 def image_to_base64(image_path):

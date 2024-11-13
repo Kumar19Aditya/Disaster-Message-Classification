@@ -14,7 +14,7 @@ def image_to_base64(image_path):
         return base64.b64encode(image_file.read()).decode()
 
 # Set the path to your local image
-image_path = "Images\shutterstock-743541502.webp"
+image_path = "Images/shutterstock-743541502.webp"
 image_base64 = image_to_base64(image_path)
 
 # Set a custom background and CSS styling

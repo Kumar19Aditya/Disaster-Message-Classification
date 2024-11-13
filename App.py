@@ -8,6 +8,9 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sklearn.model_selection import train_test_split
 
+# Ensure punkt is downloaded
+nltk.download('punkt', quiet=True)
+
 # Function to convert an image to base64
 def image_to_base64(image_path):
     with open(image_path, "rb") as image_file:

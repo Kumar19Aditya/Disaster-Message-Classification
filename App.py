@@ -239,7 +239,7 @@ def main():
         test = model.predict(test_text)
         
         # Drop unwanted columns from target labels
-        engine = create_engine(r'sqlite:///Data_Cleaned\DisasterResponse.db')
+        engine = create_engine(r'sqlite:///Data_Cleaned/DisasterResponse.db')
         df = pd.read_sql_table("messages", con=engine)
         y = df.drop(['message', 'genre', 'id', 'original'], axis=1)
         targs_drop = ['offer', 'security', 'infrastructure_related', 'tools', 

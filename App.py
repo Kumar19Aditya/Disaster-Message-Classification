@@ -222,7 +222,7 @@ def main():
             3. Streamlit Cloud automatically detected the repository and deployed the app.
             4. The app was successfully deployed and is now accessible as a live website.
 
-            The deployed application allows users to interact with the model and see predictions based on real-time inputs. The website is hosted on Streamlit Cloud, and users can access it through the following link: [Your Streamlit App URL]
+            The deployed application allows users to interact with the model and see predictions based on real-time inputs. The website is hosted on Streamlit Cloud, and users can access it through the following link: https://disaster-message-classification-atdi863kowcu3qi2mldfnx.streamlit.app/ 
             """)
 
     # Streamlit input form for message entry

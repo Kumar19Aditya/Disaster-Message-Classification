@@ -223,7 +223,7 @@ def main():
     message_input = st.text_area("Enter a message", "We are at KF Marotiere 85, we have food and water shortage, please send food for us")
 
     # Load the model when the app starts
-    model_path = r'Model\classifierAdaBoost.pkl'
+    model_path = r'Model/classifierAdaBoost.pkl'
     with open(model_path, 'rb') as file:
         model = pickle.load(file)
     

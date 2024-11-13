@@ -7,7 +7,7 @@ import base64
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sklearn.model_selection import train_test_split
-
+import nltk
 # Ensure punkt is downloaded
 nltk.download('punkt', quiet=True)
 

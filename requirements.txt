@@ -6,4 +6,4 @@ matplotlib
 seaborn
 sqlalchemy
 nltk
-nltk.download('punkt')
+
